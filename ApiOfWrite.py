@@ -219,7 +219,8 @@ for _ in range(1,config['rounds']+1):
             excelWrite(a,filesname,'QVQ'+str(random.randint(1,600)))
         if config['allstart'] == 1 or 2 in choosenum:
             print('team操作')
-            teamWrite(a,'QVQ'+str(random.randint(1,600)))
+	    onenoteWrite(a,'QVQ'+str(random.randint(1,600)))
+#             teamWrite(a,'QVQ'+str(random.randint(1,600)))
         if config['allstart'] == 1 or 3 in choosenum:
             print('task操作')
             taskWrite(a,'QVQ'+str(random.randint(1,600)))
